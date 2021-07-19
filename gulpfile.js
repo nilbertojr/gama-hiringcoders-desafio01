@@ -5,7 +5,7 @@
  'use strict';
 
  const gulp = require('gulp'),
-    sass = require('gulp-sass'),
+    sass = require('gulp-sass')(require('sass')),
     concat = require('gulp-concat'),
     autoprefixer = require('gulp-autoprefixer'),
     minifyCSS = require('gulp-clean-css');

@@ -1,0 +1,26 @@
+.section-form__form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+
+    .section-form__input-name{
+        text-indent: 9px;
+        min-height: 40px;
+        width: 100%;
+        max-width: 200px;
+        border-radius: 50px;
+        margin-bottom: 10px;
+    }
+    .section-form__input-email{
+        text-indent: 9px;
+        min-height: 40px;
+        width: 100%;
+        max-width: 200px;
+        border-radius: 50px;
+        margin-bottom: 10px;
+    }
+}

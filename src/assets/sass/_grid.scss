@@ -1,16 +1,10 @@
-.section{
+.container{
+    max-width: 1280px;
+    width: 100%;
     display: flex;
-    min-height: 100vh;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     align-content: center;
     justify-content: center;
-
-    &.section{
-
-        &-form{
-            background-color: $color-primary;
-        }
-    }
 }
