@@ -31,6 +31,6 @@ gulp.task('sass', function() {
  });
 
  gulp.task('watch', function()  {
-    gulp.watch(SASSPATH + 'sass/**/*', gulp.parallel('sass'));
+    gulp.watch(SASSPATH + '**/*', gulp.parallel('sass'));
 
 });
